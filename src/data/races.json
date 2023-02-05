@@ -1,0 +1,101 @@
+[
+    {
+        "name": "HUMAIN",
+        "pv": 80,
+        "pm": 80,
+        "for": 80,
+        "agi": 80,
+        "end": 80,
+        "vit": 80
+    },
+    {
+        "name": "NAIN",
+        "pv": 90,
+        "pm": 70,
+        "for": 85,
+        "agi": 60,
+        "end": 100,
+        "vit": 65
+    },
+    {
+        "name": "ELFE",
+        "pv": 65,
+        "pm": 110,
+        "for": 65,
+        "agi": 85,
+        "end": 70,
+        "vit": 80
+    },
+    {
+        "name": "HYBRIDE",
+        "pv": 80,
+        "pm": 80,
+        "for": 80,
+        "agi": 80,
+        "end": 80,
+        "vit": 80
+    },
+    {
+        "name": "VAMPIRE",
+        "pv": 70,
+        "pm": 100,
+        "for": 65,
+        "agi": 90,
+        "end": 70,
+        "vit": 85
+    },
+    {
+        "name": "TIEFFELIN",
+        "pv": 95,
+        "pm": 80,
+        "for": 80,
+        "agi": 70,
+        "end": 90,
+        "vit": 65
+    },
+    {
+        "name": "GNOME",
+        "pv": 65,
+        "pm": 105,
+        "for": 55,
+        "agi": 85,
+        "end": 80,
+        "vit": 90
+    },
+    {
+        "name": "ORQUE",
+        "pv": 115,
+        "pm": 45,
+        "for": 105,
+        "agi": 55,
+        "end": 90,
+        "vit": 70
+    },
+    {
+        "name": "PLANTE",
+        "pv": 85,
+        "pm": 85,
+        "for": 60,
+        "agi": 90,
+        "end": 100,
+        "vit": 55
+    },
+    {
+        "name": "FLEUR",
+        "pv": 60,
+        "pm": 100,
+        "for": 60,
+        "agi": 105,
+        "end": 100,
+        "vit": 55
+    },
+    {
+        "name": "ARBRE",
+        "pv": 120,
+        "pm": 60,
+        "for": 100,
+        "agi": 45,
+        "end": 100,
+        "vit": 55
+    }
+]

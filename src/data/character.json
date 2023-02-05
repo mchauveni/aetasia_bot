@@ -1,0 +1,291 @@
+[
+    {
+        "id": "056266",
+        "exp": 1,
+        "lvl": 1,
+        "money": 1,
+        "rank": "D",
+        "statPointLeft": 0,
+        "stats": [
+            {
+                "name": "PV",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            },
+            {
+                "name": "PM",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            },
+            {
+                "name": "FOR",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            },
+            {
+                "name": "AGI",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            },
+            {
+                "name": "END",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            },
+            {
+                "name": "VIT",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            }
+        ]
+    },
+    {
+        "id": "1648402727018",
+        "userId": "375993904446701568",
+        "name": "Ex Nihilo",
+        "race": "Elfe",
+        "exp": 1,
+        "lvl": 1,
+        "money": 0,
+        "rank": "D",
+        "inventory": [],
+        "statPointLeft": 0,
+        "stats": [
+            {
+                "name": "PV",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 11
+            },
+            {
+                "name": "PM",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 12
+            },
+            {
+                "name": "FOR",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            },
+            {
+                "name": "AGI",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            },
+            {
+                "name": "END",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            },
+            {
+                "name": "VIT",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            }
+        ]
+    },
+    {
+        "id": "1648493268978",
+        "userId": "356077333053964288",
+        "name": "tomtom",
+        "race": "Orque",
+        "exp": 1,
+        "lvl": 1,
+        "money": 0,
+        "rank": "D",
+        "statPointLeft": 0,
+        "stats": [
+            {
+                "name": "PV",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 12
+            },
+            {
+                "name": "PM",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 11
+            },
+            {
+                "name": "FOR",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            },
+            {
+                "name": "AGI",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            },
+            {
+                "name": "END",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            },
+            {
+                "name": "VIT",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            }
+        ]
+    },
+    {
+        "id": "1648493361035",
+        "userId": "356077333053964288",
+        "name": "mojo",
+        "race": "Arbre",
+        "exp": 1,
+        "lvl": 1,
+        "money": 0,
+        "rank": "D",
+        "statPointLeft": 0,
+        "stats": [
+            {
+                "name": "PV",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 12
+            },
+            {
+                "name": "PM",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 11
+            },
+            {
+                "name": "FOR",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            },
+            {
+                "name": "AGI",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            },
+            {
+                "name": "END",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            },
+            {
+                "name": "VIT",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            }
+        ]
+    },
+    {
+        "id": "891938",
+        "userId": "603658640842555417",
+        "name": "Inaya Byoan",
+        "race": "Humain",
+        "exp": 101,
+        "lvl": 5,
+        "money": 50,
+        "rank": "D",
+        "statPointLeft": 0,
+        "stats": [
+            {
+                "name": "PV",
+                "baseStat": 25,
+                "invested": 0,
+                "value": 21
+            },
+            {
+                "name": "PM",
+                "baseStat": 25,
+                "invested": 0,
+                "value": 21
+            },
+            {
+                "name": "FOR",
+                "baseStat": 6,
+                "invested": 4,
+                "value": 10
+            },
+            {
+                "name": "AGI",
+                "baseStat": 6,
+                "invested": 2,
+                "value": 8
+            },
+            {
+                "name": "END",
+                "baseStat": 1,
+                "invested": 6,
+                "value": 7
+            },
+            {
+                "name": "VIT",
+                "baseStat": 2,
+                "invested": 8,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": "056266",
+        "exp": 1,
+        "lvl": 1,
+        "money": 1,
+        "rank": "D",
+        "statPointLeft": 0,
+        "stats": [
+            {
+                "name": "PV",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            },
+            {
+                "name": "PM",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            },
+            {
+                "name": "FOR",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            },
+            {
+                "name": "AGI",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            },
+            {
+                "name": "END",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            },
+            {
+                "name": "VIT",
+                "baseStat": 0,
+                "invested": 0,
+                "value": 0
+            }
+        ]
+    }
+]
