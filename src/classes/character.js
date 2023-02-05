@@ -1,4 +1,5 @@
 const { MessageEmbed, MessageActionRow, MessageButton } = require('discord.js');
+const Item = require('./item');
 const fs = require('fs')
 
 let characterDB = JSON.parse(fs.readFileSync('./data/character.json'));
@@ -131,6 +132,14 @@ class Character {
         }
         this.exp = this.exp + nb;
         this.calcLvl();
+    }
+
+    addToInventory(id) {
+        if (Item.isValid(id)) {
+            this.inventory.push(id);
+        } else {
+            return false;
+        }
     }
 
     /**
@@ -325,24 +334,34 @@ class Character {
      * @returns ``MessageActionRow`` with 4 buttons
      */
     competenceButtonRow(style) {
+        let disabled = false;
+
+        if (this.statPointLeft == 0) {
+            style = 4;
+            disabled = true;
+        }
         return new MessageActionRow()
             .addComponents(
                 new MessageButton()
                     .setCustomId('stats_for_' + this.id)
                     .setLabel('Force')
-                    .setStyle(style),
+                    .setStyle(style)
+                    .setDisabled(disabled),
                 new MessageButton()
                     .setCustomId('stats_agi_' + this.id)
                     .setLabel('Agilité')
-                    .setStyle(style),
+                    .setStyle(style)
+                    .setDisabled(disabled),
                 new MessageButton()
                     .setCustomId('stats_end_' + this.id)
                     .setLabel('Endurance')
-                    .setStyle(style),
+                    .setStyle(style)
+                    .setDisabled(disabled),
                 new MessageButton()
                     .setCustomId('stats_vit_' + this.id)
                     .setLabel('Vitesse')
                     .setStyle(style)
+                    .setDisabled(disabled)
             );
     }
 

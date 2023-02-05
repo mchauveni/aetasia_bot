@@ -73,6 +73,16 @@ class Item {
         return embed;
     }
 
+    static isValid(id) {
+        valid = false;
+        itemDB.forEach(item => {
+            if (id == item.id) {
+                valid = true;
+            }
+        });
+
+        return valid;
+    }
 }
 
 

@@ -22,6 +22,11 @@ const commands = [
         .addStringOption(option => option.setName('id').setDescription('L\'ID du personnage').setRequired(true)),
 
     new SlashCommandBuilder()
+        .setName('inventaire')
+        .setDescription('Affiche l\'inventaire d\'un personnage')
+        .addStringOption(option => option.setName('id').setDescription('L\'ID du personnage').setRequired(true)),
+
+    new SlashCommandBuilder()
         .setName('roll')
         .setDescription('Faire un jet de dé')
         .addStringOption(option => option.setName('id').setDescription('ID du personnage').setRequired(true))

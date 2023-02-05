@@ -182,6 +182,18 @@ client.on('interactionCreate', async interaction => {
                     if (item == null) { return await interaction.reply({ content: '⚠️ ID incorrect !', ephemeral: true }) }
                     await interaction.reply({ content: 'Informations sur l\'item :', embeds: [item.fiche()] })
                     break;
+
+                case 'liste':
+                    let msg = 'Tous les items sont :';
+                    let msgEmbed = new MessageEmbed()
+                        .setColor('#000000')
+                        .setTimestamp()
+                        .setFooter({ text: interaction.user.username, iconURL: interaction.user.avatarURL() });
+                    itemDB.forEach(element => {
+                        msgEmbed.addField(element.name, '`' + element.id + '`');
+                    });
+                    await interaction.reply({ content: msg, embeds: [msgEmbed] });
+                    break;
             }
             break;
 
